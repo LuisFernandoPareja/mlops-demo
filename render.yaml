@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: mlops-demo
+    env: docker
+    plan: free
+    region: oregon
+    dockerContext: .
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
