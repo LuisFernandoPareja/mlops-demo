@@ -48,8 +48,8 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -t yourusername/mlops-demo:latest .
+        docker build -t fernandobernal2000/mlops-demo:latest .
 
     - name: Push Docker image
       run: |
-        docker push yourusername/mlops-demo:latest
+        docker push fernandobernal2000/mlops-demo:latest
